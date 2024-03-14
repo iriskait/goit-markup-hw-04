@@ -112,12 +112,11 @@ img {
 }
 
 .header-menu-link::before {
-    content: "_____";
+    content: " ";
     border-radius: 2px;
     width: 48px;
     height: 4px;
     background: #404bbf;
-    justify-content: flex-end;
 }
 
 .header-menu-link:hover,
