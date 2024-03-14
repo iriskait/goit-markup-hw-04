@@ -110,6 +110,14 @@ img {
     padding: 24px 0;
     display: block;
 }
+
+.header-menu-link-studio::before {
+border-radius: 2px;
+    width: 48px;
+    height: 4px;
+    background: #404bbf;
+}
+
 .header-menu-link:hover,
 .header-menu-link:focus {
     color: #404bbf;
