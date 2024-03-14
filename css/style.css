@@ -111,8 +111,8 @@ img {
     display: block;
 }
 
-.header-menu-link-studio::before {
-    content: "";
+.header-menu-link::before {
+    content: "______";
     border-radius: 2px;
     width: 48px;
     height: 4px;
@@ -149,7 +149,6 @@ img {
 }
 
 .hero {
-    background-color: #2e2f42;
     background-image: url(../images/image-hero.jpg),
     linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7));
