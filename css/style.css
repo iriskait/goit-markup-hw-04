@@ -156,6 +156,7 @@ img {
     ),
     url(../images/image-hero.jpg);
     background-repeat: no-repeat;
+    background-position: center;
         align-items: center;
         padding: 188px 0;
 }
