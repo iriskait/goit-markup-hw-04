@@ -112,7 +112,7 @@ img {
 }
 
 .header-menu-link::before {
-    content: " ";
+    content: "_____";
     border-radius: 2px;
     width: 48px;
     height: 4px;
@@ -149,7 +149,7 @@ img {
 }
 
 .hero {
-    background-image: linear-gradient ( 
+    background-image: linear-gradient( 
         rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
     ),
