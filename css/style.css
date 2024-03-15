@@ -221,6 +221,11 @@ display: flex;
     display: block;
     width: calc((100% - 72px) / 4);
 }
+
+.features-icons {
+
+}
+
 .features-text {
     font-size: 16px;
     font-weight: 400;
