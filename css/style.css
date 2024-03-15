@@ -244,6 +244,7 @@ display: flex;
         width: 264px;
         height: 112px;
         background: #f4f4fd;
+        
 }
 
 .features-text {
@@ -312,16 +313,21 @@ display: flex;
         text-align: center;
 }
 
-.social-links {
-        display: flex;
-            gap: 24px;
-            align-self: flex-end; 
-             
+.social-links-wrap {
+    display: flex;
+    gap: 24px;
+    margin: 8px 16px 32px 16px;
 }
 
-.social-links .icons {
-    fill: #4d5ae5;
-}
+.social-links {
+        display: flex;
+            justify-content: center;
+                align-items: center;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background-color: #4d5ae5;    
+}   
 
 .portfolio {
     display: flex;
