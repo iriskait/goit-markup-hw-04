@@ -111,16 +111,31 @@ img {
     display: block;
 }
 
-.header-menu-link::before {
-    content: " ";
+.header-menu-link-studio::after {
+    font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        padding: 24px 0;
+        display: block;
+    content: "";
     border-radius: 2px;
-    width: 48px;
+    display: inline-block;
+    width: 4px;
     height: 4px;
     background: #404bbf;
+
+    
 }
 
 .header-menu-link:hover,
 .header-menu-link:focus {
+    color: #404bbf;
+}
+
+.header-menu-link-studio:hover,
+.header-menu-link-studio:focus {
     color: #404bbf;
 }
 
@@ -297,13 +312,15 @@ display: flex;
         text-align: center;
 }
 
-.subject-icons {
-    width: 40px;
-        height: 40px;
-        fill: #4d5ae5;
+.social-links {
         display: flex;
-            gap: 4px;
-            align-self: flex-end;
+            gap: 24px;
+            align-self: flex-end; 
+             
+}
+
+.social-links .icons {
+    fill: #4d5ae5;
 }
 
 .portfolio {
