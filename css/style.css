@@ -475,7 +475,8 @@ transform: translateY(0);
 }
 
 .footer-container {
-        display: flex; 
+        display: flex;
+        align-items: baseline;
 }
 
 .footer-container-logo {
