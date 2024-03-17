@@ -467,10 +467,7 @@ transform: translateY(0);
     }
 
 .footer { 
-    font-family: "Roboto", sans-serif;
-    display: inline-block;
     padding: 100px 0; 
-    display: flex;
     background-color: #2e2f42;
 }
 
@@ -484,6 +481,8 @@ transform: translateY(0);
 }
 
 .footer-logo {
+           font-family: "Raleway", sans-serif;
+           display: inline-block;
              font-size: 18px;
              font-weight: 700;
              line-height: 1.17;
