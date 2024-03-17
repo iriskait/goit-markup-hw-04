@@ -103,6 +103,7 @@ img {
     display: flex;
     gap: 40px;
 }
+
 .header-menu-link {
     font-size: 16px;
     font-weight: 500;
@@ -154,6 +155,7 @@ img {
     display: flex;
     margin-left: auto;
 }
+
 .header-address-list {
     display: flex;
     gap: 40px;
@@ -357,10 +359,12 @@ justify-content: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .subject-link:hover,
 .subject-link:focus {
     background-color: #404bbf
 }
+
 .social-links-icons {
     fill: #f4f4fd;
 }
@@ -432,8 +436,8 @@ transform: translateY(0);
         padding: 40px 32px;
         transform: translateY(100%);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
+
 .portfolio-item-subtitle {
     font-size: 20px;
     font-weight: 500;
@@ -465,21 +469,19 @@ transform: translateY(0);
 .footer { 
     font-family: "Roboto", sans-serif;
     display: inline-block;
-    background-color: #2e2f42;
     padding: 100px 0; 
     display: flex;
-     padding-right: 120px;
-    padding-left: 156px;
+    background-color: #2e2f42;
 }
 
 .footer-container {
-        display: flex;
-        align-items: baseline;
-    }
+        display: flex; 
+}
 
 .footer-container-logo {
     margin-right: 120px;
 }
+
 .footer-logo {
              font-size: 18px;
              font-weight: 700;
@@ -488,7 +490,7 @@ transform: translateY(0);
             text-transform: uppercase;
             margin-bottom: 16px;
              color: #4d5ae5;
-         }
+}
 
 .footer-logo-studio {
         font-size: 18px;
@@ -497,7 +499,7 @@ transform: translateY(0);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-    }
+}
 
 .footer-text {
         font-size: 16px;
@@ -556,5 +558,3 @@ transform: translateY(0);
 .footer-link:focus {
     background-color: #31d0aa;
     }
-
-
